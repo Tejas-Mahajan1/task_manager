@@ -1,0 +1,154 @@
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:#242424;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  color : #FFFFFF;
+  margin-bottom: 20px;
+}
+
+/* TaskForm Styles */
+.task-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.task-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.task-form input[type="text"],
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.task-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin:  10px 40%;
+}
+
+.task-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* TaskList Styles */
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-item {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 300px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.task-item p {
+  margin: 10px 0;
+}
+
+.task-item button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.task-item form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item input,
+.task-item textarea,
+.task-item select {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.task-item button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.task-item button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.task-item button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.task-item button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+
+/* Filter */
+.filter-container {
+  margin: 20px;
+  text-align: center;
+
+}
+
+.filter-container label {
+  font-size: 26px;
+  color : white;
+  margin-right: 10px;
+}
+
+.filter-container select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
