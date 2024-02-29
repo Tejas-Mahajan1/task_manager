@@ -50,17 +50,9 @@ The frontend server will start running on http://localhost:3000 by default.
 - The frontend server proxies requests to the backend server by default, so there's no additional setup required for API communication.
 
 ### Project Structure:
+![Screenshot 2024-02-29 165058](https://github.com/Tejas-Mahajan1/task_manager/assets/114793178/22ebbdc6-320c-4fc9-967c-8867f5124b7c)
 
-task-manager/
-  |- backend/
-       |- models/
-            |- Task.js
-       |- routes/
-            |- taskRoutes.js
-       |- app.js
-  |- frontend/
-       |- index.html
-       |- script.js
+
 
 
 
